@@ -20,6 +20,7 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
+    // TODO: Add a wishlist item indicator to the tab
     val titles = listOf("Comics", "Wishlist")
     val pagerState = rememberPagerState { titles.size }
     val coroutineScope = rememberCoroutineScope()
